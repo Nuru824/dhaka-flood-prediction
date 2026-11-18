@@ -12,7 +12,7 @@ pinned: false
 
 An end-to-end machine learning pipeline that forecasts **next-day flood risk** in Dhaka, Bangladesh using 10 years of daily NASA POWER meteorological data, hydrological feature engineering, class-imbalanced classification, and an interactive Gradio web interface.
 
-🔗 **Live Demo:** [Try the Predictor on Hugging Face Spaces](https://huggingface.co/spaces/Nuru824/dhaka-flood-predictor)
+ **Live Demo:** [Try the Dhaka Flood Risk Predictor Live](https://dhaka-flood-prediction-bejbdwchcvaujxn3agv9l6.streamlit.app)
 
 ---
 
