@@ -55,9 +55,9 @@ if st.button("Predict Tomorrow's Flood Risk", type="primary", use_container_widt
 
     prob = model.predict_proba(input_df)[0, 1]
     if prob >= THRESHOLD:
-        st.error(f"🚨 HIGH FLOOD RISK TOMORROW — Probability: {prob:.1%} (Alert Threshold: {THRESHOLD:.0%})")
+        st.error(f"HIGH FLOOD RISK TOMORROW — Probability: {prob:.1%} (Alert Threshold: {THRESHOLD:.0%})")
     else:
-        st.success(f"✅ LOW FLOOD RISK TOMORROW — Probability: {prob:.1%} (Alert Threshold: {THRESHOLD:.0%})")
+        st.success(f"LOW FLOOD RISK TOMORROW — Probability: {prob:.1%} (Alert Threshold: {THRESHOLD:.0%})")
 
 chart_path = BASE_DIR / "flood_evaluation_report.png"
 if chart_path.exists():
